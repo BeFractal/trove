@@ -12,6 +12,14 @@
   width: 32px;
 }
 
-.search-sort {
-  margin-top: 144px;
+.project-detail-image {
+  background-image: url("../../assets/tesla.png");
+  height: 100vh;
+  background-repeat: none;
+  background-size: cover;
+  background-position: -182px 0px;
+}
+
+.project-detail-content {
+  width: 408px;
 }

@@ -17,7 +17,7 @@ export class CreateProjectComponent implements OnInit {
     this.isOpen = !this.isOpen;
   }
 
-  constructor(){}//(private quoteService: QuoteService) {}
+  constructor() {} //(private quoteService: QuoteService) {}
 
   ngOnInit() {
     this.isLoading = true;

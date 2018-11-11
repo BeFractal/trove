@@ -53,3 +53,11 @@
   background-color: $color-neutral-grey-2;
   border-color: $color-neutral-grey-2;
 }
+
+.btn-sort {
+  border-radius: 50px;
+  background-color: $color-neutral-grey-5;
+  border: 2px solid $color-neutral-grey-4;
+  color: $color-neutral-grey-4;
+  font-weight: $font-weight-bold;
+}

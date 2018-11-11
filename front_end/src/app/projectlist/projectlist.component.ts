@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projectlist.component.scss']
 })
 export class ProjectListComponent implements OnInit {
-  constructor(){}
+  constructor() {}
 
   ngOnInit() {}
 }

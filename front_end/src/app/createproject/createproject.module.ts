@@ -16,7 +16,7 @@ import { CreateProjectComponent } from './createproject.component';
     SharedModule,
     CreateProjectRoutingModule
   ],
-  declarations: [CreateProjectComponent],
+  declarations: [CreateProjectComponent]
   // providers: [QuoteService]
 })
 export class HomeModule {}

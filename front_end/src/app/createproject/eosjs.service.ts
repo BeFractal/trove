@@ -4,18 +4,23 @@ import { Api, JsonRpc, RpcError, JsSignatureProvider } from 'eosjs'; // https://
 
 @Injectable()
 export class EOSJSService {
-  endpoint: string = "http://localhost:8888";
+  endpoint: string = 'http://localhost:8888';
   constructor(private httpClient: HttpClient) {}
-/*
+  /*
 account_name  user;           // account name for the user
       std::string   title;          // title
       std::string   description;    // the description
       uint64_t      amount; 
 */
-  async handleFormEvent(account: string, privateKey: string, title: string, description: string, amount: number) {
-    
+  async handleFormEvent(
+    account: string,
+    privateKey: string,
+    title: string,
+    description: string,
+    amount: number
+  ) {
     // prepare variables for the switch below to send transactions
-    let actionName = "insert";
+    let actionName = 'insert';
     let actionData = {
       _user: account,
       _title: title,
@@ -34,27 +39,38 @@ account_name  user;           // account name for the user
     //   default:
     //     return;
     // }
-    
 
     // eosjs function call: connect to the blockchain
     const rpc = new JsonRpc(this.endpoint);
     const signatureProvider = new JsSignatureProvider([privateKey]);
-    const api = new Api({ rpc, signatureProvider, textDecoder: new TextDecoder(), textEncoder: new TextEncoder() });
+    const api = new Api({
+      rpc,
+      signatureProvider,
+      textDecoder: new TextDecoder(),
+      textEncoder: new TextEncoder()
+    });
     try {
-      const result = await api.transact({
-        actions: [{
-          account: "notechainacc",
-          name: actionName,
-          authorization: [{
-            actor: account,
-            permission: 'active',
-          }],
-          data: actionData,
-        }]
-      }, {
-        blocksBehind: 3,
-        expireSeconds: 30,
-      });
+      const result = await api.transact(
+        {
+          actions: [
+            {
+              account: 'notechainacc',
+              name: actionName,
+              authorization: [
+                {
+                  actor: account,
+                  permission: 'active'
+                }
+              ],
+              data: actionData
+            }
+          ]
+        },
+        {
+          blocksBehind: 3,
+          expireSeconds: 30
+        }
+      );
 
       console.log(result);
       this.getTable();

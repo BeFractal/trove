@@ -1,0 +1,95 @@
+body p,
+p,
+h5,
+h6,
+label,
+button,
+.sm-header,
+.meta,
+.form-control {
+  font-family: $font-family-regular;
+}
+
+h1,
+h2 {
+  font-family: $font-family-bold;
+}
+
+.btn,
+.btn-sm,
+.btn-primary,
+.btn-info-outline {
+  font-size: $font-size-base; //16px
+}
+
+h1 {
+  font-size: $font-size-base * 5.5; //88px
+  line-height: $spacing * 4.5;
+  margin-bottom: $spacing;
+}
+
+h2 {
+  font-size: $font-size-base * 3.5;
+  line-height: $spacing * 3.25;
+}
+
+h3,
+h5 {
+  font-size: $spacing-xl;
+  line-height: $spacing * 2;
+}
+
+h6 {
+  font-size: $font-size-base * 1.25; //20px
+}
+
+label {
+  font-size: $font-size-base * 0.875;
+}
+
+h3 {
+  font-weight: $font-weight-bold;
+}
+
+p {
+  line-height: $spacing * 1.75; //28px
+}
+
+small {
+  font-weight: $font-weight-demibold;
+}
+
+.sm-header {
+  font-size: $font-size-base * 0.8125; //13px
+  font-weight: $font-weight-demibold;
+  letter-spacing: 0.5px;
+}
+
+.meta,
+.text-xsm {
+  font-size: $font-size-sm;
+}
+
+.text-xsm {
+  letter-spacing: 0.2px;
+}
+
+.font-weight-demibold {
+  font-weight: $font-weight-demibold;
+}
+
+table th,
+table td,
+.table-header {
+  color: $color-neutral-grey-5;
+}
+
+table th {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-sm;
+}
+
+table td {
+  font-weight: $font-weight-demibold;
+  font-size: $font-size-base * 0.875;
+}

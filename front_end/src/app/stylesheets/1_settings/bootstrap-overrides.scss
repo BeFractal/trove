@@ -1,0 +1,100 @@
+// Colors
+$color-primary: #f95f10;
+$color-neutral-grey-1: #f3f3f3; /*ex-light*/
+$color-neutral-grey-2: #dddddd; /*light*/
+$color-neutral-grey-3: #939699; /*medium*/
+$color-neutral-grey-4: #5a6065; /*muted*/
+$color-neutral-grey-5: #2c3237; /*dark*/
+// $color-neutral-grey-6: #424242; /*ex-dark*/
+$color-black: #1f1f1f;
+$color-white: #fff;
+$color-error: #e13535;
+$color-green: #35e17f;
+
+// Theme
+$theme-colors: (
+  "primary": $color-primary,
+  "light": $color-neutral-grey-2,
+  "medium": $color-neutral-grey-3,
+  "muted": $color-neutral-grey-4,
+  "dark": $color-neutral-grey-5,
+  "danger": $color-error,
+  "black": $color-black
+);
+
+/* Fonts */
+$font-family-regular: "Gilroy-Regular", Avenir Next, -apple-system,
+  BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-bold: "Gilroy-Bold", Avenir Next, -apple-system, BlinkMacSystemFont,
+  Helvetica Neue, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-heavy: "Gilroy-Bold", Avenir Next, -apple-system,
+  BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-bold-italic: "Gilroy-BoldItalic";
+
+/* Font Sizes */
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-sm: ($font-size-base * 0.75); //12
+$font-size-lg: ($font-size-base * 1.5); //24
+$font-size-xl: ($font-size-base * 2); //32
+$font-size-xxl: ($font-size-base * 4); //64
+
+/* Font Weights */
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-demibold: 600;
+$font-weight-bold: 700;
+
+/* Spacing */
+$spacing: $font-size-base; //16px
+$spacing-xsm: ($spacing * 0.75); //12
+$spacing-sm: ($spacing * 0.875); //14px
+$spacing-lg: ($spacing * 1.125); //18px
+$spacing-xl: ($spacing * 1.5); //24px
+$spacing-xxl: ($spacing * 2.25); //36px
+$spacing-xxxl: ($spacing * 2.5); //40px
+
+// common padding and border
+$border-radius: 0.25rem; //4px
+$border-radius-lg: 0.5rem; //8px
+$border-radius-sm: 0.125rem; //2px
+$border-width: 1px;
+
+/*buttons*/
+$btn-border-radius: $border-radius;
+
+$btn-padding-x: $spacing-lg;
+$btn-padding-y: $spacing-lg;
+$btn-font-weight: $font-weight-medium;
+
+$btn-primary-color: $color-neutral-grey-2;
+$btn-primary-bg: $color-primary;
+$btn-primary-border: $btn-primary-bg;
+
+$btn-link-disabled-color: $color-neutral-grey-2;
+
+/*forms*/
+$input-padding-x: 1.25rem;
+$input-padding-y: $spacing;
+
+$input-bg: $color-white;
+$input-color: $color-neutral-grey-5;
+$input-placeholder-color: $color-neutral-grey-4;
+
+$input-btn-focus-box-shadow: none;
+$input-border: $color-neutral-grey-2;
+
+$input-border-focus: none;
+$input-box-shadow-focus: none;
+
+$input-height: 56px;
+
+/*Tables*/
+$table-cell-padding: $spacing-lg;
+
+$table-bg-accent: $color-black;
+$table-bg-hover: $color-error;
+
+$table-border-color: $color-neutral-grey-2;

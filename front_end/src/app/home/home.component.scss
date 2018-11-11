@@ -1,0 +1,18 @@
+@import "src/app/stylesheets/1_settings/bootstrap-overrides.scss";
+
+.home-background {
+  height: 100vh;
+  // background-color: $color-green;
+}
+
+.line {
+  height: 4px;
+  width: 451px;
+  color: $color-primary;
+}
+
+.section1-image1 {
+  position: absolute;
+  top: 11%;
+  right: 13%;
+}

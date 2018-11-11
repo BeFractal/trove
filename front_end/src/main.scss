@@ -1,0 +1,28 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+// @import "theme/theme-variables";
+@import "app/stylesheets/1_settings/bootstrap-overrides.scss"; //bootstrap variables overides
+
+// 3rd party libraries
+@import "~bootstrap/scss/bootstrap";
+// @import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome.scss";
+// @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-brands.scss";
+// @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular.scss";
+// @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid.scss";
+
+@import "app/stylesheets/1_settings/fonts";
+@import "app/stylesheets/1_settings/typography";
+
+// OVERIDES
+@import "app/stylesheets/3_overides/buttons.scss";
+
+// Theme customization
+// @import "theme/theme";
+
+body {
+  background-color: $color-neutral-grey-5;
+}

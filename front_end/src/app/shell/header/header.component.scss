@@ -1,0 +1,17 @@
+@import "src/app/stylesheets/1_settings/bootstrap-overrides.scss";
+@import "src/theme/theme-variables";
+
+.navbar {
+  margin-bottom: $spacer;
+}
+
+.nav-link.dropdown-toggle {
+  cursor: pointer;
+}
+
+.nav-number {
+  margin-bottom: -12px;
+  margin-left: -16px;
+  font-family: $font-family-bold-italic;
+  font-size: $font-size-sm;
+}

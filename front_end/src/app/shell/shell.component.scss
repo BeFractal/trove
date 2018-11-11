@@ -1,0 +1,22 @@
+@import "src/app/stylesheets/1_settings/bootstrap-overrides.scss";
+
+.footer-line {
+  height: 1px;
+  width: 80%;
+  background-color: $color-white;
+}
+
+.vert-text {
+  position: absolute;
+  top: 50%;
+
+  &--left {
+    transform: rotate(-90deg);
+    left: 0%;
+  }
+
+  &--right {
+    transform: rotate(90deg);
+    right: 0%;
+  }
+}

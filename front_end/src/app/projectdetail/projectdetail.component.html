@@ -40,17 +40,20 @@
             <img src="" alt="" />
           </div>
         </div>
-        <label class="d-block mt-0">
-          <label class="text-medium font-weight-bold">Amount EOS TO Lend</label>
-          <input class="form-control" />
-        </label>
-        <label class="d-block mt-4">
-          <label class="text-medium font-weight-bold">Amount EOS TO Lend</label>
-          <input class="form-control" />
-        </label>
-        <button class="btn btn-primary w-100 mt-5">
-          <span class="font-weight-bold">Send Offer</span>
-        </button>
+        <form [formGroup]="entryForm">
+            <label class="d-block mt-0">
+                <label class="text-medium font-weight-bold">Amount EOS to Lend</label>
+                <input class="form-control" type="number" formControlName="amount" (input)="getReturnValue()"/>
+              </label>
+              <label class="d-block mt-4">
+                <label class="text-medium font-weight-bold">Percent Return</label>
+                <input class="form-control" type="number" formControlName="percent" (input)="getReturnValue()"/>
+              </label>
+              <p>Return: {{ returnAmount | number: '1.2-2' }} (EOS)</p>
+              <button class="btn btn-primary w-100 mt-5" [disabled]="!entryForm.valid">
+                <span class="font-weight-bold">Send Offer</span>
+              </button>
+        </form>
       </div>
     </div>
     <div></div>

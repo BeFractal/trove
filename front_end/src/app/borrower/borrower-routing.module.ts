@@ -3,15 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { extract } from '@app/core';
 import { Shell } from '@app/shell/shell.service';
-import { AboutComponent } from './about.component';
+import { BorrowerComponent } from './borrower.component';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: '', redirectTo: '/about', pathMatch: 'full' },
+    { path: '', redirectTo: '/borrower', pathMatch: 'full' },
     {
-      path: 'about',
-      component: AboutComponent,
-      data: { title: extract('About'), state: 'about' }
+      path: 'borrower',
+      component: BorrowerComponent,
+      data: { title: extract('Borrower'), state: 'borrower' }
     }
   ])
 ];
@@ -21,4 +21,4 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: []
 })
-export class AboutRoutingModule {}
+export class BorrowerRoutingModule {}

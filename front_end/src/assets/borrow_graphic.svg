@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="410px" viewBox="0 0 384 410" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy" transform="translate(-272.000000, -277.000000)">
+            <g id="Group-4" transform="translate(272.000000, 274.000000)">
+                <text id="4.5%-APR" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.236" y="15">4.5% APR</tspan>
+                </text>
+                <text id="3.5%" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="135.492" y="111">3.5%</tspan>
+                </text>
+                <text id="3.25%" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="184.244" y="159">3.25%</tspan>
+                </text>
+                <text id="2.25%" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="238.356" y="236">2.25%</tspan>
+                </text>
+                <text id="2.5%" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="347.604" y="212">2.5%</tspan>
+                </text>
+                <text id="2.25%-copy" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="289.356" y="135">2.25%</tspan>
+                </text>
+                <text id="Tradition" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.416" y="412">Tradition</tspan>
+                </text>
+                <text id="Trove-Protocol" font-family="Gilroy-Bold, Gilroy" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="202.5" y="412">Trove Protocol</tspan>
+                </text>
+                <path d="M33.5,31 L33.5,31 C45.3741221,31 55,40.6258779 55,52.5 L55,381 L12,381 L12,52.5 C12,40.6258779 21.6258779,31 33.5,31 Z" id="Rectangle-2" fill="#D2500D"></path>
+                <path d="M151.5,131 L151.5,131 C163.374122,131 173,140.625878 173,152.5 L173,381 L130,381 L130,152.5 C130,140.625878 139.625878,131 151.5,131 Z" id="Rectangle-2-Copy" fill="#D2500D"></path>
+                <path d="M204.5,179 L204.5,179 C216.374122,179 226,188.625878 226,200.5 L226,381 L183,381 L183,200.5 C183,188.625878 192.625878,179 204.5,179 Z" id="Rectangle-2-Copy-2" fill="#D2500D"></path>
+                <path d="M310.5,155 L310.5,155 C322.374122,155 332,164.625878 332,176.5 L332,381 L289,381 L289,176.5 C289,164.625878 298.625878,155 310.5,155 Z" id="Rectangle-2-Copy-4" fill="#D2500D"></path>
+                <path d="M257.5,256 L257.5,256 C269.374122,256 279,265.625878 279,277.5 L279,381 L236,381 L236,277.5 C236,265.625878 245.625878,256 257.5,256 Z" id="Rectangle-2-Copy-3" fill="#D2500D"></path>
+                <path d="M362.5,232 L362.5,232 C374.374122,232 384,241.625878 384,253.5 L384,381 L341,381 L341,253.5 C341,241.625878 350.625878,232 362.5,232 Z" id="Rectangle-2-Copy-5" fill="#D2500D"></path>
+            </g>
+        </g>
+    </g>
+</svg>

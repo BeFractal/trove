@@ -14,6 +14,7 @@ import { ShellModule } from './shell/shell.module';
 import { BorrowerModule } from './borrower/borrower.module';
 import { LenderModule } from './lender/lender.module';
 import { ProjectListModule } from './projectlist/projectlist.module';
+import { ProjectDetailModule } from './projectdetail/projectdetail.module';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +39,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BorrowerModule,
     LenderModule,
     ProjectListModule,
+    ProjectDetailModule,
     LoginModule,
     AppRoutingModule // must be imported as the last module as it contains the fallback route
   ],

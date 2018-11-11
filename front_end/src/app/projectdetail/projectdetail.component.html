@@ -49,8 +49,8 @@
                 <label class="text-medium font-weight-bold">Percent Return</label>
                 <input class="form-control" type="number" formControlName="percent" (input)="getReturnValue()"/>
               </label>
-              <p>Return: {{ returnAmount | number: '1.2-2' }} (EOS)</p>
-              <button class="btn btn-primary w-100 mt-5" [disabled]="!entryForm.valid">
+              <p class="font-weight-bold">Return: {{ returnAmount | number: '1.2-2' }} (EOS)</p>
+              <button class="btn btn-primary w-100 mt-5" (click)="goToList()" [disabled]="!entryForm.valid">
                 <span class="font-weight-bold">Send Offer</span>
               </button>
         </form>

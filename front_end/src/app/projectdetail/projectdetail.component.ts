@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-projectdetail',
@@ -11,7 +12,7 @@ export class ProjectDetailComponent implements OnInit {
   entryForm: FormGroup;
   returnAmount: number = 0;
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private router: Router) {
     // Private Key Form
     this.entryForm = this.formBuilder.group({
       amount: ["", [Validators.required]],
@@ -20,6 +21,13 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   ngOnInit() {}
+
+  async goToList(){
+    //Navigate to inside main
+    this.router.navigate(["projectlist"]).catch(err => {
+      console.log(err);
+    });
+  }
 
   async getReturnValue() {
     var amount = this.entryForm.get('amount').value;

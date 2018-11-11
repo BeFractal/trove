@@ -11,7 +11,8 @@ button,
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: $font-family-bold;
 }
 
@@ -47,9 +48,9 @@ label {
   font-size: $font-size-base * 0.875;
 }
 
-h3 {
-  font-weight: $font-weight-bold;
-}
+// h3 {
+//   font-weight: $font-weight-bold;
+// }
 
 p {
   line-height: $spacing * 1.75; //28px

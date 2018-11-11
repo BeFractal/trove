@@ -6,6 +6,7 @@ import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 import { CreateProjectRoutingModule } from './createproject-routing.module';
 import { CreateProjectComponent } from './createproject.component';
+import { EOSJSService } from './eosjs.service';
 // import { QuoteService } from './quote.service';
 
 @NgModule({
@@ -16,7 +17,7 @@ import { CreateProjectComponent } from './createproject.component';
     SharedModule,
     CreateProjectRoutingModule
   ],
-  declarations: [CreateProjectComponent]
-  // providers: [QuoteService]
+  declarations: [CreateProjectComponent],
+  providers: [EOSJSService]
 })
-export class HomeModule {}
+export class CreateProjectModule {}

@@ -1,18 +1,22 @@
 @import "src/app/stylesheets/1_settings/bootstrap-overrides.scss";
 
-.section2-background {
+.home-background {
   height: 100vh;
-  background-color: green;
+  // background-color: $color-green;
 }
 
-.section2-image {
-  background-color: none;
-  // height: 500px;
-  // width: 65%;
+.line {
+  height: 4px;
+  width: 451px;
+  color: $color-primary;
 }
 
-.section2-image2 {
+.section1-image1 {
   position: absolute;
   top: 11%;
-  left: 10%;
+  right: 13%;
+}
+
+.home-subehead {
+  width: 400px;
 }

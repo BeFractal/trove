@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from "@angular/forms";
-import { Router } from "@angular/router";
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-projectdetail',
@@ -15,16 +15,16 @@ export class ProjectDetailComponent implements OnInit {
   constructor(private formBuilder: FormBuilder, private router: Router) {
     // Private Key Form
     this.entryForm = this.formBuilder.group({
-      amount: ["", [Validators.required]],
-      percent: ["", [Validators.required]]
+      amount: ['', [Validators.required]],
+      percent: ['', [Validators.required]]
     });
   }
 
   ngOnInit() {}
 
-  async goToList(){
+  async goToList() {
     //Navigate to inside main
-    this.router.navigate(["projectlist"]).catch(err => {
+    this.router.navigate(['home']).catch(err => {
       console.log(err);
     });
   }
